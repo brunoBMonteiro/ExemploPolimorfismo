@@ -3,6 +3,15 @@ public class Aluno extends Pessoa {
     private String curso;
     private double[] notas;
 
+    // utiliza o super sempre que for fazer acesso a super classe
+    public Aluno() {
+        super();
+    }
+
+    public Aluno(String curso) {
+        //this  referencia a própria classe
+        this.curso = curso;
+    }
 
     public String getCurso() {
         return curso;

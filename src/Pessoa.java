@@ -6,6 +6,9 @@ public class Pessoa {
     private String cpf;
     private String casa;
 
+    public Pessoa() {
+
+    }
 
     public String getNome() {
         return nome;
