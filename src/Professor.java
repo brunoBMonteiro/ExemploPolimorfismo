@@ -1,5 +1,6 @@
-public class Professor extends Pessoa {
+public abstract class Professor extends Pessoa {
 
+    // encapsulamento é acessar o atributo private através dos metodos
     private double salario;
     private String nomeCurso;
 
@@ -33,4 +34,6 @@ public class Professor extends Pessoa {
 
         return s;
     }
+
+
 }
